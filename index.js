@@ -97,13 +97,13 @@ module.exports = function( THREE ) {
 
 		};
 
-		this.polarAngle = function ( angle ) {
+		this.setPolarAngle = function ( angle ) {
 
 			spherical.phi = angle;
 
 		};
 		
-		this.azimuthalAngle = function ( angle ) {
+		this.setAzimuthalAngle = function ( angle ) {
 
 			spherical.theta = angle;
 
