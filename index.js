@@ -97,6 +97,18 @@ module.exports = function( THREE ) {
 
 		};
 
+		this.polarAngle = function ( angle ) {
+
+			spherical.phi = angle;
+
+		};
+		
+		this.azimuthalAngle = function ( angle ) {
+
+			spherical.theta = angle;
+
+		};
+
 		this.reset = function () {
 
 			scope.target.copy( scope.target0 );
